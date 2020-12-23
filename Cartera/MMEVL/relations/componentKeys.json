@@ -1,10 +1,10 @@
 {
 	"Entities": {
+		"EN_CLIENTEEK_527": {
+			"name": "Cliente"
+		},
 		"EN_CUENTARVP_795": {
 			"name": "Cuenta"
-		},
-        "EN_CLIENTEEK_527": {
-			"name": "Cliente"
 		}
 	}
 }
