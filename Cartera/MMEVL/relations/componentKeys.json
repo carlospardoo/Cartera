@@ -6,5 +6,18 @@
 		"EN_CUENTARVP_795": {
 			"name": "Cuenta"
 		}
+	},
+	"SSMMR": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_MMEVLKBDUEPLI_559": {
+				"name": "formCuenta"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
 	}
 }

@@ -1,10 +1,10 @@
 {
-    "MMEVL": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"MMEVL": {
+		"LBL": {
+			"LBL_MMEVL_IDCUENTAA_13902": "idCuenta",
+			"LBL_MMEVL_NUMEROCAA_86731": "numeroCuenta"
+		},
+		"MSG": {
+		}
+	}
 }
