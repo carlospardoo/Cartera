@@ -1,11 +1,12 @@
 {
 	"entities": [
 		{
-			"entityId": "EN_CUENTARVP_795",
+			"entityId": "EN_CLIENTEEK_527",
 			"isContextEntity": null,
 			"moduleId": "MMEVL",
 			"related": false
 		}
 	],
-	"queries": []
+	"queries": [
+	]
 }

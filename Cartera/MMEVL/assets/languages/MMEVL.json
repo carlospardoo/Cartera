@@ -1,7 +1,11 @@
 {
 	"MMEVL": {
 		"LBL": {
+			"LBL_MMEVL_APELLIDOO_21727": "Apellido",
+			"LBL_MMEVL_GUARDARII_44522": "Guardar",
 			"LBL_MMEVL_IDCUENTAA_13902": "idCuenta",
+			"LBL_MMEVL_IDWXNQPRD_98094": "Id",
+			"LBL_MMEVL_NOMBRERFC_49588": "Nombre",
 			"LBL_MMEVL_NUMEROCAA_86731": "numeroCuenta"
 		},
 		"MSG": {

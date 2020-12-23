@@ -2,8 +2,46 @@
 	"autoCrudStr": "F",
 	"cobisPattern": "None",
 	"cobisPatternId": 0,
-	"commands": [],
-	"customEvents": [],
+	"commands": [
+		{
+			"action": null,
+			"causesValidation": false,
+			"causesValidationAsString": "F",
+			"close": false,
+			"closeAsString": "F",
+			"commandType": 0,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"group": null,
+			"id": {
+				"commandId": "CM_TMMEVLFJ_755"
+			},
+			"imageId": null,
+			"isCustomized": false,
+			"label": {
+				"defaultValue": {
+					"$ref": "../../../../MMEVL/assets/languages/MMEVL.json#/MMEVL/LBL/LBL_MMEVL_GUARDARII_44522"
+				},
+				"labelId": "LBL_MMEVL_GUARDARII_44522",
+				"moduleId": "MMEVL"
+			},
+			"layoutType": "Command",
+			"name": "Command1",
+			"options": 0,
+			"order": 1,
+			"showInMode": 4095,
+			"userControl": {
+				"type": "A",
+				"userControlId": "Button"
+			},
+			"validationGroup": null
+		}
+	],
+	"customEvents": [
+	],
 	"customizationLayer": 0,
 	"customizationLayerDescription": "ECU",
 	"graphicSupportStr": "F",
@@ -11,15 +49,15 @@
 	"id": {
 		"moduleId": "MMEVL",
 		"subModuleId": "SSMMR",
-		"taskId": "T_MMEVLKBDUEPLI_559",
+		"taskId": "T_MMEVLFJFMDOAA_107",
 		"version": "1.0.0"
 	},
 	"isCustomized": false,
 	"isImported": false,
-	"mainViewContainerId": "VC_CUENTAYGPG_804559",
+	"mainViewContainerId": "VC_CLIENTEOIW_148107",
 	"modeEnabled": 4095,
 	"name": {
-		"$ref": "../../../../MMEVL/relations/componentKeys.json#/SSMMR/Forms/T_MMEVLKBDUEPLI_559/name"
+		"$ref": "../../../../MMEVL/relations/componentKeys.json#/SSMMR/Forms/T_MMEVLFJFMDOAA_107/name"
 	},
 	"setFocus": false,
 	"tempSaveStr": "F",
@@ -30,20 +68,21 @@
 			"colSpan": 1,
 			"columnsNum": 1,
 			"componentStyle": null,
-			"customEvents": [],
+			"customEvents": [
+			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
 			"enabled": 4095,
 			"id": {
 				"moduleId": "MMEVL",
 				"subModuleId": "SSMMR",
-				"taskId": "T_MMEVLKBDUEPLI_559",
+				"taskId": "T_MMEVLFJFMDOAA_107",
 				"taskVersion": "1.0.0",
-				"viewContainerId": "VC_CUENTAYGPG_804559"
+				"viewContainerId": "VC_CLIENTEOIW_148107"
 			},
 			"isCustomized": false,
 			"layoutType": "Group",
-			"name": "formCuenta",
+			"name": "formCliente",
 			"options": 0,
 			"responsiveLayouts": null,
 			"responsivity": false,
@@ -55,18 +94,19 @@
 						"colSpan": 1,
 						"columnsNum": 3,
 						"componentStyle": null,
-						"customEvents": [],
+						"customEvents": [
+						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../MMEVL/entities/EN_CUENTARVP_795.json#"
+							"$ref": "../../../../MMEVL/entities/EN_CLIENTEEK_527.json#"
 						},
 						"eventType": 0,
-						"groupId": "G_CUENTAQCVQ_466139",
+						"groupId": "G_CLIENTEZAQ_488491",
 						"htmlSection": "F",
 						"independentValidation": "F",
 						"isCustomized": false,
 						"layoutType": "Group",
-						"name": "Group1536",
+						"name": "Group1870",
 						"order": 1,
 						"orientation": "V",
 						"responsiveLayouts": null,
@@ -78,13 +118,15 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../MMEVL/entities/EN_CUENTARVP_795.json#/attributes/AT40_IDCUENAT795"
+									"$ref": "../../../../MMEVL/entities/EN_CLIENTEEK_527.json#/attributes/AT12_APELLIOO527"
 								},
-								"attributeValidations": [],
+								"attributeValidations": [
+								],
 								"colSpan": 1,
 								"componentInGrid": false,
 								"componentStyle": null,
-								"customEvents": [],
+								"customEvents": [
+								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
@@ -93,56 +135,13 @@
 								"isCustomized": false,
 								"label": {
 									"defaultValue": {
-										"$ref": "../../../../MMEVL/assets/languages/MMEVL.json#/MMEVL/LBL/LBL_MMEVL_IDCUENTAA_13902"
+										"$ref": "../../../../MMEVL/assets/languages/MMEVL.json#/MMEVL/LBL/LBL_MMEVL_NOMBRERFC_49588"
 									},
-									"labelId": "LBL_MMEVL_IDCUENTAA_13902",
+									"labelId": "LBL_MMEVL_NOMBRERFC_49588",
 									"moduleId": "MMEVL"
 								},
 								"maxRecords": null,
-								"name": "idCuenta",
-								"options": 0,
-								"order": 1,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_IDCUENTASUAUGLQ_587139",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../MMEVL/entities/EN_CUENTARVP_795.json#/attributes/AT23_NUMEROTU795"
-								},
-								"attributeValidations": [],
-								"colSpan": 1,
-								"componentInGrid": false,
-								"componentStyle": null,
-								"customEvents": [],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"format": "",
-								"include": 4095,
-								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../MMEVL/assets/languages/MMEVL.json#/MMEVL/LBL/LBL_MMEVL_NUMEROCAA_86731"
-									},
-									"labelId": "LBL_MMEVL_NUMEROCAA_86731",
-									"moduleId": "MMEVL"
-								},
-								"maxRecords": null,
-								"name": "numeroCuenta",
+								"name": "apellido",
 								"options": 0,
 								"order": 2,
 								"readOnly": 8,
@@ -156,64 +155,97 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_NUMEROCUENTAAQT_565139",
+								"visualAttributeId": "VA_APELLIDONTGZBTC_229491",
 								"width": null,
 								"widthComposite": "D"
 							},
 							{
 								"aggregate": null,
 								"aggregateId": null,
-								"attributeValidations": [],
+								"attribute": {
+									"$ref": "../../../../MMEVL/entities/EN_CLIENTEEK_527.json#/attributes/AT80_IDCLIENT527"
+								},
+								"attributeValidations": [
+								],
 								"colSpan": 1,
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
-									{
-										"customEventId": "CEVA_010VA_VAIMAGEBUTTONNN_596139_274",
-										"customizationLayer": 0,
-										"customizationLayerDescription": "ECU",
-										"enabled": "T",
-										"eventActions": [
-											{
-												"actionArgs": [],
-												"actionId": "CUSTOM",
-												"actionType": "CUSTOM"
-											}
-										],
-										"executionType": 7,
-										"filter": null,
-										"isEnabled": true,
-										"visualAttributeEventType": {
-											"availableExecutionType": 7,
-											"description": "Permite personalizar la acción a ejecutar de un command o de un ActionControl",
-											"eventId": 10,
-											"name": "ExecuteCommand"
-										}
-									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"entityQuery": null,
-								"imageId": "fa fa-search",
+								"format": "",
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMEVL/assets/languages/MMEVL.json#/MMEVL/LBL/LBL_MMEVL_IDWXNQPRD_98094"
+									},
+									"labelId": "LBL_MMEVL_IDWXNQPRD_98094",
+									"moduleId": "MMEVL"
+								},
 								"maxRecords": null,
-								"name": "VA_VAIMAGEBUTTONNN_596139",
-								"options": 8,
-								"order": 3,
-								"queryModule": null,
-								"queryVersion": null,
+								"name": "idCliente",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
 								"style": null,
+								"textRows": 0,
 								"userControl": {
-									"type": "A",
-									"userControlId": "ImageButton"
+									"type": "I",
+									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_VAIMAGEBUTTONNN_596139",
+								"visualAttributeId": "VA_IDCLIENTEUGLUGR_719491",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../MMEVL/entities/EN_CLIENTEEK_527.json#/attributes/AT63_NOMBREFT527"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../MMEVL/assets/languages/MMEVL.json#/MMEVL/LBL/LBL_MMEVL_APELLIDOO_21727"
+									},
+									"labelId": "LBL_MMEVL_APELLIDOO_21727",
+									"moduleId": "MMEVL"
+								},
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NOMBREKGOVTJPNV_919491",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -222,7 +254,7 @@
 				],
 				"id": {
 					"version": "1.0.0",
-					"viewId": "VW_CUENTAUREO_139"
+					"viewId": "VW_CLIENTEVGG_491"
 				},
 				"metadataVersion": "7.2.0.2020",
 				"modules": [
@@ -230,7 +262,7 @@
 						"moduleId": "MMEVL"
 					}
 				],
-				"name": "View of formCuenta"
+				"name": "View of formCliente"
 			}
 		}
 	]

@@ -1,2 +1,45 @@
-[
-]
+{
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_CLIENTEEK_527": {
+			"labels": [
+			]
+		},
+		"EN_CUENTARVP_795": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_MMEVLFJFMDOAA_107": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTEEK_527": [
+					"AT12_APELLIOO527",
+					"AT63_NOMBREFT527",
+					"AT80_IDCLIENT527"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMEVL_APELLIDOO_21727",
+				"LBL_MMEVL_GUARDARII_44522",
+				"LBL_MMEVL_IDWXNQPRD_98094",
+				"LBL_MMEVL_NOMBRERFC_49588"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+	}
+}
