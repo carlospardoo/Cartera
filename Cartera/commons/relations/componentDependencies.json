@@ -38,6 +38,32 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_MMEVLGNEKTMRQ_826": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CUENTARVP_795": [
+					"AT23_NUMEROTU795",
+					"AT32_TIPOCUAA795",
+					"AT40_IDCUENAT795"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_MMEVL_IDCUENTAA_92555",
+				"LBL_MMEVL_NMEROCUEA_54856",
+				"LBL_MMEVL_TIPOCUETT_14314"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {

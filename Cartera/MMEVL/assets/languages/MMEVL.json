@@ -4,9 +4,12 @@
 			"LBL_MMEVL_APELLIDOO_21727": "Apellido",
 			"LBL_MMEVL_GUARDARII_44522": "Guardar",
 			"LBL_MMEVL_IDCUENTAA_13902": "idCuenta",
+			"LBL_MMEVL_IDCUENTAA_92555": "Id Cuenta",
 			"LBL_MMEVL_IDWXNQPRD_98094": "Id",
+			"LBL_MMEVL_NMEROCUEA_54856": "N\u00famero de Cuenta",
 			"LBL_MMEVL_NOMBRERFC_49588": "Nombre",
-			"LBL_MMEVL_NUMEROCAA_86731": "numeroCuenta"
+			"LBL_MMEVL_NUMEROCAA_86731": "numeroCuenta",
+			"LBL_MMEVL_TIPOCUETT_14314": "Tipo de Cuenta"
 		},
 		"MSG": {
 		}

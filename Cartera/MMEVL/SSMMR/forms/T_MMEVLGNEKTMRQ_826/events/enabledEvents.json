@@ -1,0 +1,16 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "VA_VAIMAGEBUTTONNN_765598",
+		"controlName": "VA_VAIMAGEBUTTONNN_765598",
+		"controlType": "ImageButton",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "Cuenta",
+		"eventsType": "visualAttributeEventType"
+	}
+]
