@@ -1,8 +1,13 @@
 {
-	"CompositeForms": {
+}
+"CompositeForms": {
 	},
 	"Entities": {
-		"EN_CLIENTEEK_527": {
+		"EN_CUENTARVP_795": {
+			"labels": [
+			]
+		},
+"EN_CLIENTEEK_527": {
 			"labels": [
 			]
 		}

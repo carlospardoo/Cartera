@@ -1,6 +1,9 @@
 {
 	"Entities": {
-		"EN_CLIENTEEK_527": {
+		"EN_CUENTARVP_795": {
+			"name": "Cuenta"
+		},
+        "EN_CLIENTEEK_527": {
 			"name": "Cliente"
 		}
 	}
